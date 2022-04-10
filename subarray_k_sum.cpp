@@ -11,7 +11,7 @@ public:
                 count++;
             }
             if(map.find(pre_sum-k)!=map.end()){
-                 count+=map[pre_sum-k];//we increase count as many time as many rime                       //pre su comes
+                 count+=map[pre_sum-k];//we increase count as many time as many time we found this sum
             }
             map[pre_sum]++;
             
